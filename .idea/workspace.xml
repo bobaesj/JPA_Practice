@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6446dcbf-f562-4c5f-a706-4fdb4c36c5d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/data_jpa/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/data_jpa/entity/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/data_jpa/repository/MemberJpaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/data_jpa/repository/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/study/data_jpa/repository/MemberJpaRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/study/data_jpa/repository/MemberRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/study/data_jpa/entity/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/study/data_jpa/entity/MemberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/data_jpa/entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/data_jpa/entity/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -70,6 +60,8 @@
     "JUnit.MemberJpaRepositoryTest.executor": "Run",
     "JUnit.MemberJpaRepositoryTest.testMember.executor": "Run",
     "JUnit.MemberRepositoryTest.testMember.executor": "Run",
+    "JUnit.MemberTest.executor": "Run",
+    "JUnit.MemberTest.testEntity.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.DataJpaApplication.executor": "Run",
@@ -84,6 +76,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
     "vue.rearranger.settings.migration": "true"
   },
@@ -98,10 +93,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="study.data_jpa.entity" />
       <recent name="study.data_jpa.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MemberRepositoryTest.testMember">
+  <component name="RunManager" selected="JUnit.MemberTest.testEntity">
     <configuration name="MemberJpaRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-jpa.test" />
       <extension name="coverage">
@@ -149,6 +145,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MemberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-jpa.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.data_jpa.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="study.data_jpa.entity" />
+      <option name="MAIN_CLASS_NAME" value="study.data_jpa.entity.MemberTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberTest.testEntity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-jpa.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.data_jpa.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="study.data_jpa.entity" />
+      <option name="MAIN_CLASS_NAME" value="study.data_jpa.entity.MemberTest" />
+      <option name="METHOD_NAME" value="testEntity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="data-jpa.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="study.data_jpa.DataJpaApplication" />
@@ -158,6 +185,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MemberTest.testEntity" />
+        <item itemvalue="JUnit.MemberTest" />
         <item itemvalue="JUnit.MemberRepositoryTest.testMember" />
         <item itemvalue="JUnit.MemberJpaRepositoryTest" />
         <item itemvalue="JUnit.MemberJpaRepositoryTest.testMember" />
@@ -181,7 +210,7 @@
       <option name="presentableId" value="Default" />
       <updated>1740973527847</updated>
       <workItem from="1740973529200" duration="2156000" />
-      <workItem from="1741003007192" duration="5383000" />
+      <workItem from="1741003007192" duration="8981000" />
     </task>
     <servers />
   </component>
