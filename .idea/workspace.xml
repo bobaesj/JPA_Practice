@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6446dcbf-f562-4c5f-a706-4fdb4c36c5d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/data_jpa/entity/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/study/data_jpa/entity/MemberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/study/data_jpa/repository/TeamRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/study/data_jpa/entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/data_jpa/entity/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/data_jpa/repository/MemberJpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/data_jpa/repository/MemberJpaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/study/data_jpa/repository/MemberJpaRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/study/data_jpa/repository/MemberJpaRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +37,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,11 +58,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build JPA_Practice.executor": "Run",
+    "JUnit.MemberJpaRepositoryTest.basicCRUD.executor": "Run",
     "JUnit.MemberJpaRepositoryTest.executor": "Run",
     "JUnit.MemberJpaRepositoryTest.testMember.executor": "Run",
     "JUnit.MemberRepositoryTest.testMember.executor": "Run",
     "JUnit.MemberTest.executor": "Run",
     "JUnit.MemberTest.testEntity.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.DataJpaApplication.executor": "Run",
@@ -97,7 +103,7 @@
       <recent name="study.data_jpa.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MemberTest.testEntity">
+  <component name="RunManager" selected="JUnit.MemberJpaRepositoryTest.basicCRUD">
     <configuration name="MemberJpaRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-jpa.test" />
       <extension name="coverage">
@@ -113,7 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberJpaRepositoryTest.testMember" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MemberJpaRepositoryTest.basicCRUD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-jpa.test" />
       <extension name="coverage">
         <pattern>
@@ -123,7 +129,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="study.data_jpa.repository" />
       <option name="MAIN_CLASS_NAME" value="study.data_jpa.repository.MemberJpaRepositoryTest" />
-      <option name="METHOD_NAME" value="testMember" />
+      <option name="METHOD_NAME" value="basicCRUD" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -185,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MemberJpaRepositoryTest.basicCRUD" />
         <item itemvalue="JUnit.MemberTest.testEntity" />
         <item itemvalue="JUnit.MemberTest" />
         <item itemvalue="JUnit.MemberRepositoryTest.testMember" />
         <item itemvalue="JUnit.MemberJpaRepositoryTest" />
-        <item itemvalue="JUnit.MemberJpaRepositoryTest.testMember" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +216,8 @@
       <option name="presentableId" value="Default" />
       <updated>1740973527847</updated>
       <workItem from="1740973529200" duration="2156000" />
-      <workItem from="1741003007192" duration="8981000" />
+      <workItem from="1741003007192" duration="9243000" />
+      <workItem from="1741070128227" duration="2728000" />
     </task>
     <servers />
   </component>
