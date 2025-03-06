@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6446dcbf-f562-4c5f-a706-4fdb4c36c5d0" name="Changes" comment="" />
+    <list default="true" id="6446dcbf-f562-4c5f-a706-4fdb4c36c5d0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/data_jpa/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/data_jpa/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/study/data_jpa/repository/MemberRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/study/data_jpa/repository/MemberRepositoryTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,53 +54,54 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build JPA_Practice.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberJpaRepositoryTest.basicCRUD.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberJpaRepositoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberJpaRepositoryTest.findByUsernameAndAgeGreaterThen.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberJpaRepositoryTest.testMember.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberRepositoryTest.basicCRUD.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberRepositoryTest.findByUsernameAndAgeGreaterThen.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberRepositoryTest.findHelloBy.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberRepositoryTest.findMemberDto.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberRepositoryTest.findUsernameList.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberRepositoryTest.testMember.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberRepositoryTest.testNamedQuery.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberRepositoryTest.testQuery.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberTest.testEntity.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.DataJpaApplication.executor&quot;: &quot;Run&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/COMTREE/Desktop/JPA_Practice&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build JPA_Practice.executor": "Run",
+    "JUnit.MemberJpaRepositoryTest.basicCRUD.executor": "Run",
+    "JUnit.MemberJpaRepositoryTest.executor": "Run",
+    "JUnit.MemberJpaRepositoryTest.findByUsernameAndAgeGreaterThen.executor": "Run",
+    "JUnit.MemberJpaRepositoryTest.testMember.executor": "Run",
+    "JUnit.MemberRepositoryTest.basicCRUD.executor": "Run",
+    "JUnit.MemberRepositoryTest.findByNames.executor": "Run",
+    "JUnit.MemberRepositoryTest.findByUsernameAndAgeGreaterThen.executor": "Run",
+    "JUnit.MemberRepositoryTest.findHelloBy.executor": "Run",
+    "JUnit.MemberRepositoryTest.findMemberDto.executor": "Run",
+    "JUnit.MemberRepositoryTest.findUsernameList.executor": "Run",
+    "JUnit.MemberRepositoryTest.testMember.executor": "Run",
+    "JUnit.MemberRepositoryTest.testNamedQuery.executor": "Run",
+    "JUnit.MemberRepositoryTest.testQuery.executor": "Run",
+    "JUnit.MemberTest.executor": "Run",
+    "JUnit.MemberTest.testEntity.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.DataJpaApplication.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/COMTREE/Desktop/JPA_Practice",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;h2&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "h2"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -106,7 +111,7 @@
       <recent name="study.data_jpa.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MemberRepositoryTest.findMemberDto">
+  <component name="RunManager" selected="JUnit.MemberRepositoryTest.findByNames">
     <configuration name="MemberRepositoryTest.basicCRUD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-jpa.test" />
       <extension name="coverage">
@@ -118,6 +123,22 @@
       <option name="PACKAGE_NAME" value="study.data_jpa.repository" />
       <option name="MAIN_CLASS_NAME" value="study.data_jpa.repository.MemberRepositoryTest" />
       <option name="METHOD_NAME" value="basicCRUD" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberRepositoryTest.findByNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-jpa.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.data_jpa.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="study.data_jpa.repository" />
+      <option name="MAIN_CLASS_NAME" value="study.data_jpa.repository.MemberRepositoryTest" />
+      <option name="METHOD_NAME" value="findByNames" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,22 +176,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberRepositoryTest.testNamedQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-jpa.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="study.data_jpa.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="study.data_jpa.repository" />
-      <option name="MAIN_CLASS_NAME" value="study.data_jpa.repository.MemberRepositoryTest" />
-      <option name="METHOD_NAME" value="testNamedQuery" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MemberRepositoryTest.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-jpa.test" />
       <extension name="coverage">
@@ -196,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MemberRepositoryTest.findByNames" />
         <item itemvalue="JUnit.MemberRepositoryTest.findMemberDto" />
         <item itemvalue="JUnit.MemberRepositoryTest.findUsernameList" />
         <item itemvalue="JUnit.MemberRepositoryTest.testQuery" />
         <item itemvalue="JUnit.MemberRepositoryTest.basicCRUD" />
-        <item itemvalue="JUnit.MemberRepositoryTest.testNamedQuery" />
       </list>
     </recent_temporary>
   </component>

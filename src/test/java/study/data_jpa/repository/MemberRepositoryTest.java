@@ -10,7 +10,9 @@ import study.data_jpa.dto.MemberDto;
 import study.data_jpa.entity.Member;
 import study.data_jpa.entity.Team;
 
+import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
@@ -138,7 +140,42 @@ class MemberRepositoryTest {
         for (MemberDto dto : memberDto) {
             System.out.println("dto = " + dto);
         }
-        
+    }
+
+    @Test
+    public void findByNames() {
+        Member member1 = new Member("AAA", 10);
+        Member member2 = new Member("BBB", 20);
+        memberRepository.save(member1);
+        memberRepository.save(member2);
+
+        List<Member> result = memberRepository.findByNames(Arrays.asList("AAA", "BBB"));
+        for (Member member : result) {
+            System.out.println("member = " + member);
+        }
+    }
+
+    @Test
+    public void returnType() {
+        Member member1 = new Member("AAA", 10);
+        Member member2 = new Member("BBB", 20);
+        memberRepository.save(member1);
+        memberRepository.save(member2);
+
+        List<Member> findListMember = memberRepository.findListByUsername("AAA");
+        for (Member member : findListMember) {
+            System.out.println("member = " + member);
+        }
+
+        Member findMember = memberRepository.findMemberByUsername("AAA");
+        System.out.println("findMember = " + findMember);
+
+        Optional<Member> findOptionalMember = memberRepository.findOptionalByUsername("AAA");
+        if(findOptionalMember.isPresent()){
+            System.out.println("findOptionalMember = " + findOptionalMember.get());
+        }else{
+            System.out.println("findOptionalMember is empty");
+        }
     }
 }
 
