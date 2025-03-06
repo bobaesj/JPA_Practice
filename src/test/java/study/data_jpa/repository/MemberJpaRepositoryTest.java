@@ -23,8 +23,7 @@ class MemberJpaRepositoryTest {
 
     @Test
     public void testMember() {
-        Member member = new Member();
-        member.setUsername("memberA");
+        Member member = new Member("member");
 
         memberJpaRepository.save(member);
         Member findMember = memberJpaRepository.find(member.getId());
@@ -36,10 +35,8 @@ class MemberJpaRepositoryTest {
 
     @Test
     public void basicCRUD() {
-        Member member1 = new Member();
-        Member member2 = new Member();
-        member1.setUsername("member1");
-        member2.setUsername("member2");
+        Member member1 = new Member("member1");
+        Member member2 = new Member("member2");
         memberJpaRepository.save(member1);
         memberJpaRepository.save(member2);
 
@@ -71,14 +68,10 @@ class MemberJpaRepositoryTest {
 
     @Test
     public void findByUsernameAndAgeGreaterThen() {
-        Member member1 = new Member();
-        member1.setUsername("AAA");
-        member1.setAge(10);
+        Member member1 = new Member("AAA", 10);
         memberJpaRepository.save(member1);
 
-        Member member2 = new Member();
-        member2.setUsername("AAA");
-        member2.setAge(20);
+        Member member2 = new Member("AAA", 20);
         memberJpaRepository.save(member2);
 
         List<Member> result = memberJpaRepository.findByUsernameAndAgeGreaterThan("AAA", 15);
@@ -89,14 +82,10 @@ class MemberJpaRepositoryTest {
 
     @Test
     public void testNamedQuery() {
-        Member member1 = new Member();
-        member1.setUsername("AAA");
-        member1.setAge(10);
+        Member member1 = new Member("AAA", 10);
         memberJpaRepository.save(member1);
 
-        Member member2 = new Member();
-        member2.setUsername("BBB");
-        member2.setAge(20);
+        Member member2 = new Member("BBB", 20);
         memberJpaRepository.save(member2);
 
         List<Member> result = memberJpaRepository.findByUsername("AAA");
