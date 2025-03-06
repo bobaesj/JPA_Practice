@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6446dcbf-f562-4c5f-a706-4fdb4c36c5d0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/data_jpa/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/data_jpa/repository/MemberRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/study/data_jpa/repository/MemberRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/study/data_jpa/repository/MemberRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +61,7 @@
     "JUnit.MemberJpaRepositoryTest.findByUsernameAndAgeGreaterThen.executor": "Run",
     "JUnit.MemberJpaRepositoryTest.testMember.executor": "Run",
     "JUnit.MemberRepositoryTest.basicCRUD.executor": "Run",
+    "JUnit.MemberRepositoryTest.findByNames.executor": "Run",
     "JUnit.MemberRepositoryTest.findByUsernameAndAgeGreaterThen.executor": "Run",
     "JUnit.MemberRepositoryTest.findHelloBy.executor": "Run",
     "JUnit.MemberRepositoryTest.findMemberDto.executor": "Run",
@@ -108,7 +110,7 @@
       <recent name="study.data_jpa.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MemberRepositoryTest.findMemberDto">
+  <component name="RunManager" selected="JUnit.MemberRepositoryTest.findByNames">
     <configuration name="MemberRepositoryTest.basicCRUD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-jpa.test" />
       <extension name="coverage">
@@ -120,6 +122,22 @@
       <option name="PACKAGE_NAME" value="study.data_jpa.repository" />
       <option name="MAIN_CLASS_NAME" value="study.data_jpa.repository.MemberRepositoryTest" />
       <option name="METHOD_NAME" value="basicCRUD" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberRepositoryTest.findByNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-jpa.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.data_jpa.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="study.data_jpa.repository" />
+      <option name="MAIN_CLASS_NAME" value="study.data_jpa.repository.MemberRepositoryTest" />
+      <option name="METHOD_NAME" value="findByNames" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,22 +175,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberRepositoryTest.testNamedQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-jpa.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="study.data_jpa.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="study.data_jpa.repository" />
-      <option name="MAIN_CLASS_NAME" value="study.data_jpa.repository.MemberRepositoryTest" />
-      <option name="METHOD_NAME" value="testNamedQuery" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MemberRepositoryTest.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-jpa.test" />
       <extension name="coverage">
@@ -198,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MemberRepositoryTest.findByNames" />
         <item itemvalue="JUnit.MemberRepositoryTest.findMemberDto" />
         <item itemvalue="JUnit.MemberRepositoryTest.findUsernameList" />
         <item itemvalue="JUnit.MemberRepositoryTest.testQuery" />
         <item itemvalue="JUnit.MemberRepositoryTest.basicCRUD" />
-        <item itemvalue="JUnit.MemberRepositoryTest.testNamedQuery" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +228,7 @@
       <workItem from="1741003007192" duration="9243000" />
       <workItem from="1741070128227" duration="3709000" />
       <workItem from="1741095254595" duration="3833000" />
-      <workItem from="1741245083594" duration="8564000" />
+      <workItem from="1741245083594" duration="9036000" />
     </task>
     <servers />
   </component>
