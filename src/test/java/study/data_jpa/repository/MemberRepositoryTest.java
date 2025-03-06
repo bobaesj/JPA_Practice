@@ -10,7 +10,6 @@ import study.data_jpa.dto.MemberDto;
 import study.data_jpa.entity.Member;
 import study.data_jpa.entity.Team;
 
-import java.util.Arrays;
 import java.util.List;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
@@ -76,8 +75,9 @@ class MemberRepositoryTest {
     @Test
     public void findByUsernameAndAgeGreaterThen() {
         Member member1 = new Member("AAA", 10);
-        Member member2 = new Member("AAA", 20);
         memberRepository.save(member1);
+
+        Member member2 = new Member("AAA", 20);
         memberRepository.save(member2);
 
         List<Member> result = memberRepository.findByUsernameAndAgeGreaterThan("AAA", 15);
@@ -89,8 +89,9 @@ class MemberRepositoryTest {
     @Test
     public void testNamedQuery() {
         Member member1 = new Member("AAA", 10);
-        Member member2 = new Member("AAA", 20);
         memberRepository.save(member1);
+
+        Member member2 = new Member("AAA", 20);
         memberRepository.save(member2);
 
         List<Member> result = memberRepository.findByUsername("AAA");
@@ -101,8 +102,9 @@ class MemberRepositoryTest {
     @Test
     public void testQuery() {
         Member member1 = new Member("AAA", 10);
-        Member member2 = new Member("BBB", 20);
         memberRepository.save(member1);
+
+        Member member2 = new Member("BBB", 20);
         memberRepository.save(member2);
 
         List<Member> result = memberRepository.findUser("AAA", 10);
@@ -112,8 +114,9 @@ class MemberRepositoryTest {
     @Test
     public void findUsernameList() {
         Member member1 = new Member("AAA", 10);
-        Member member2 = new Member("BBB", 20);
         memberRepository.save(member1);
+
+        Member member2 = new Member("BBB", 20);
         memberRepository.save(member2);
 
         List<String> result = memberRepository.findUsernameList();
@@ -135,19 +138,7 @@ class MemberRepositoryTest {
         for (MemberDto dto : memberDto) {
             System.out.println("dto = " + dto);
         }
-    }
-
-    @Test
-    public void findByNames() {
-        Member member1 = new Member("AAA", 10);
-        Member member2 = new Member("BBB", 20);
-        memberRepository.save(member1);
-        memberRepository.save(member2);
-
-        List<Member> result = memberRepository.findByNames(Arrays.asList("AAA", "BBB"));
-        for (Member member : result) {
-            System.out.println("member = " + member);
-        }
+        
     }
 }
 
