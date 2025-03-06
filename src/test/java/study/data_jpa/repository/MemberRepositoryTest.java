@@ -138,8 +138,7 @@ class MemberRepositoryTest {
         for (MemberDto dto : memberDto) {
             System.out.println("dto = " + dto);
         }
-
-
+        
     }
 }
 
